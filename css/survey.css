@@ -21,9 +21,15 @@ form {
 fieldset {
   border: none;
 }
-
 legend {
-  display: none;
+    font-size: 1.3em;
+    color: #EF3459;
+}
+
+#emailreq,
+#retypereq,
+#submit {
+    font-size: .85em;
 }
 
 /* Styles for larger screens */

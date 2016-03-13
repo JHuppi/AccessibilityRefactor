@@ -16,12 +16,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #999; /*Passes at certain font-sizes*/
+  color: #aaa; /*Passes at certain font-sizes*/
+  border-bottom: 2px solid #aaa;
 }
 
 a:hover,
 a:focus {
   color: white;
+  border-bottom-color: white;
 }
 
 /* Section Styles */
@@ -86,7 +88,7 @@ header h1{
 }
 
 .name{
-  font-weight: 300;
+  font-weight: 400;
 }
 
 header .name{
@@ -163,20 +165,8 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .6;
   transition: all .5s;
-}
-
-a.twitter {
-  background-image: url(../img/twitter-32.png);
-}
-
-a.youtube {
-  background-image: url(../img/youtube-32.png);
-}
-
-a.spotify {
-  background-image: url(../img/spotify-32.png);
 }
 
 a.social:hover,

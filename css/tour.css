@@ -3,6 +3,11 @@ table {
   margin-left: auto;
 }
 
+caption {
+    font-size: 1.3em;
+    color: #EF3459;
+}
+
 th, td {
   padding: .5em;
 }

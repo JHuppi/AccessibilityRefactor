@@ -12,9 +12,9 @@
   <body>
     <div class="main-nav" role="navigation">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
-        <li><a href="#">Tour</a></li>
-        <li><a href="survey.html">Survey</a></li>
+        <li class="name"><a href="index.html" aria-hidden="true">Accessible Frog</a></li>
+        <li><a href="#" aria-hidden="true">Tour</a></li>
+        <li><a href="survey.html" aria-hidden="true">Survey</a></li>
       </ul>
     </div>
 
@@ -30,21 +30,21 @@
           <p class= "heading">Tour Dates</p>
           <img class="pick" src= "img/guitar_pick.png" alt="">
           <table>
+            <caption>Tour Dates and Venue Locations</caption>  
             <tr>
-              <caption>Tour Dates and Venue Locations</caption>
               <th scope="col">Date</th><th scope="col">Venue</th><th scope="col">Location</th>
             </tr>
             <tr>
-              <td scope="row">Mar 10 - 12</td><td>The Warfield</td><td>San Francisco, CA</td>
+              <td>Mar 10 - 12</td><td>The Warfield</td><td>San Francisco, CA</td>
             </tr>
             <tr>
-              <td scope="row">Mar 20 - 23</td><td>Pepsi Center</td><td>Denver, CO</td>
+              <td>Mar 20 - 23</td><td>Pepsi Center</td><td>Denver, CO</td>
             </tr>
             <tr>
-              <td scope="row">Apr 2 - 4</td><td>Beacon Theatre</td><td>New York City, NY</td>
+              <td>Apr 2 - 4</td><td>Beacon Theatre</td><td>New York City, NY</td>
             </tr>
             <tr>
-              <td scope="row">Apr 10</td><td>Paramount Theatre</td><td>Seattle, WA</td>
+              <td>Apr 10</td><td>Paramount Theatre</td><td>Seattle, WA</td>
             </tr>
           </table>
         </div>
@@ -53,9 +53,9 @@
     
     <footer role="contentinfo">
       <ul>
-        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="Twitter"></a></li>
-        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="Youtube"></a></li>
-        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="Spotify"></a></li>
+        <li><a href="#" class="social twitter" aria-hidden="true"><img src= "img/twitter-32.png" alt="Twitter"></a></li>
+        <li><a href="#" class="social youtube" aria-hidden="true"><img src= "img/youtube-32.png" alt="Youtube"></a></li>
+        <li><a href="#" class="social spotify" aria-hidden="true"><img src= "img/spotify-32.png" alt="Spotify"></a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>
