@@ -22,15 +22,15 @@ a {
 
 a:hover,
 a:focus {
-  color: white;
-  border-bottom-color: white;
+  color: #EF3459;
+  border-bottom-color: #EF3459;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: rgba(45, 43, 48, 0.8);
+  background: rgba(45, 43, 48, 0.95);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -63,7 +63,7 @@ a:focus {
 }
 
 .nav a:hover {
-  color: white
+  color: #EF3459;
 }
 
 header {
@@ -99,7 +99,7 @@ header .name{
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #EF3459 /*Old:#781125*/
+  color: #EF3459; /*Old:#781125*/
 }
 
 .card {
@@ -131,7 +131,7 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #EF3459; /*Doesn't pass*/
+  color: #EF3459; 
   margin-top: 10px;
 }
 
@@ -172,6 +172,7 @@ a.social {
 a.social:hover,
 a.social:focus {
   opacity: 1;
+  color: #EF3459;
 }
 .clearfix {
   clear: both;

@@ -26,6 +26,14 @@ legend {
     color: #EF3459;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: #EF3459 solid medium;
+}
+
+
 #emailreq,
 #retypereq,
 #submit {
